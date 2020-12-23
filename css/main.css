@@ -48,7 +48,11 @@ li {
 }
 
 .fourth {
-    margin-left: 140px;
+    margin-left: 150px;
+}
+
+.more {
+    margin-left: 200px;
 }
 
 .color-accent {
@@ -88,5 +92,11 @@ li {
     }
     .third {
         margin-left: 30px;
+    }
+    .fourth {
+        margin-left: 40px;
+    }
+    .more {
+        margin-left: 50px;
     }
 }
