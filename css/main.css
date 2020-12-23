@@ -16,6 +16,7 @@ p {
     font-size: 1.2em;
     margin-bottom: 40px;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 a {
@@ -61,4 +62,22 @@ li {
 .animate--hover:hover {
     color: #23c8de;
     transition: color 300ms;
+}
+
+@media (max-width: 719px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    p {
+        margin-left: 10px;
+    }
+    .first {
+        margin-left: 10px;
+    }
+    .second {
+        margin-left: 20px;
+    }
+    .third {
+        margin-left: 30px;
+    }
 }
