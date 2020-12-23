@@ -1,11 +1,14 @@
-:root {
-    --accent-1: #c21010;
-    --accent-2: #23c8de;
+@import url(vars.css);
+* {
+    cursor: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     color: rgb(255, 255, 255);
     background-color: #181818;
+    cursor: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
